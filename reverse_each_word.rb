@@ -1,4 +1,5 @@
 def reverse_each_word(s)
-  s.split("")
-  arr
+  reverse = []
+  s.split("").map{|e| e.unshift}
+  reverse.join("")
 end
